@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node app.js",
     "devStart": "nodemon app.js",
-    "build:css": "tailwindcss -i public/css/input.css -o public/css/home.css --watch"
+    "build:css": "tailwindcss -i src/tailwind_input.css -o public/css/home.css --watch"
   },
   "author": {
     "name": "Keegan M",
