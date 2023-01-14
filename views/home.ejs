@@ -2,21 +2,42 @@
 
 <head>
     <title>Crypto Insight</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/home.css">
+    
+    
 </head>
 
 <body>
-    <div class="w-full h-full bg-blue bg-gradient-to-r from-blue-300 to-purple-600">
-        <div class="pb-4">
-            <div class="w-11/12 bg-red-400"></div>
-        </div>
+    <div class="w-full h-full font-custom bg-blue bg-gradient-to-br from-blue-500 to-purple-700 xl:from-blue-400 xl:to-blue-600 xl:via-purple-800">
         <main role="main" class="flex flex-col w-full h-screen">
-            <div class="px-4 pt-5 pb-4 mx-auto bg-blue-300 border-black border-solid rounded-lg shadow-2xl sm:w-5/6 lg:w-2/3">
-                <p>Hello worlds</p> 
-                 <p>Hellosssss ssworld</p> <p>Hello world</p> <p>Hello world</p> <p>Hello world</p> <p>Hello world</p> 
+            
+            <nav class="z-20 w-5/6 mx-auto mt-5 text-2xl bg-white rounded-md">
+                <ul class="flex flex-row">
+                    <li class="transition duration-500 ease-in-out hover:bg-blue-500"><a class="px-10 py-5 " href="/home">Home</a></li>
+                    <li><a class="px-10 py-5" href="/development">Development</a></li>
+                </ul>
+            </nav>
+            
+            <div class="flex flex-row justify-center mx-auto bg-white border-black border-solid shadow-2xl my-7 p-7 rounded-2xl sm:w-4/5 md:w-3/4 xl:w-1/2">
+                <h2 class="text-6xl">Crypto Insight</h2>
             </div>
+
+            <div class="p-4 mx-auto bg-white border-black border-solid shadow-2xl my-7 rounded-2xl sm:w-4/5 md:w-3/4 xl:w-1/2">
+                <h2 class="text-4xl">Tools</h2>     
+            </div>
+
+            <a href="https://github.com/m9m/CryptoInsight">
+                <div class="flex flex-row justify-center p-4 mx-auto bg-white border-black border-solid shadow-2xl my-7 rounded-2xl sm:w-4/5 md:w-3/4 xl:w-1/2">
+                    <img class="w-10 h-10" src="/images/github.png" alt="github logo">
+                    <h2 class="text-4xl">View the Source</h2>
+                </div>
+            </a>
+            
         </main>
     </div>
 </body>
 
-</html>
+</html> 
