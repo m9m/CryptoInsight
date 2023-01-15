@@ -10,11 +10,6 @@ module.exports = {
     },
     extends: {
     },
-    colors: {
-      blue: colors.blue,
-      purple: colors.purple,
-      white: colors.white
-    }
   },
   plugins: [],
 }
